@@ -1,0 +1,209 @@
+/* li,div{
+    color: red;
+} */
+/* .class{
+    color: blue;
+}
+.class2{
+    color: rgb(221, 166, 14);
+}
+.bgcolor{
+    background-color: #ff000080;;
+} */
+body{
+     /* background-color: lightgreen; */
+     background-image: url('../img/bg.jpg');
+     background-repeat: no-repeat;
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    background-position: right top;
+    background-attachment: fixed;
+    background-color: yellow;
+    background: lightgreen url('../img/bg.jpg') no-repeat right top fixed;
+    margin: 0;
+    
+}
+.nav{
+    background:black;
+    /* margin: auto; */
+    /* list-style-type: decimal; */
+}
+.items{
+    background: red;
+    margin: 0;
+    height: 45px;
+    margin: 50px;
+    width: 50%;
+}
+.item{
+    background: orange;
+    /* list-style-type: square; */list-style-type: none;
+    display: inline;
+    padding-top:50px ;
+    margin-left: auto;
+}
+.class{
+    border-style: solid;
+    border-width: 2px;
+    border-color: blue;
+    /* margin-top:84px;
+    margin-left:10px;
+    margin-right:20px;
+    margin-bottom:20px; */
+    margin:auto;
+    padding: 50px;
+    width: 50%;
+    height:455px;
+}
+.class3{
+    border-style: dotted;
+    margin:24px 10px 22px 23px;
+}
+.class2{
+    border-style: dashed;
+    border-top-style: solid;
+}
+.class4{
+    border: 5px solid green;
+    border-radius: 18px;
+    outline:4px solid black;
+    color: blue;
+    text-align: center;
+    font-family: sans-serif;
+    font-style: italic;
+    /* font-size: 2px; */
+    /* font-size: 2em; */
+    font-size: 1.4vw;
+}
+.class5{
+    margin: 50px;
+}
+.class4 a{
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+a:hover{
+    background-color: yellow;
+    color: green;
+    font-size: 4.5em;
+}
+a:active{
+    font-size: 4.5em;
+}
+.bgcolor{
+    /* visibility: hidden; */
+    display: none;
+}
+#box{
+    /* position: fixed; */
+    bottom: 0;
+    right:0;
+}
+.first{
+    background: red;
+    height: 35px;
+    width:30%;
+    display: inline-block;
+    float:right;
+}
+.second{
+    background:yellow;
+    display: inline-block;
+    height:35px;
+    width:30%;
+}
+.container{
+    width: 100%;
+    height:50px;
+    padding:5px;
+    border:3px solid black;
+    box-sizing:border-box;
+}
+.myflex{
+    background: black;
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    flex-direction: column-reverse;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+    align-items: baseline;
+
+}
+.myflex > div{
+    background: red;
+    width:80px;
+    height:80px;
+    font-size: 25px;
+    margin:8px;
+}
+.mycont{
+
+}
+input[type=text] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  input[type=text] {
+    border: 2px solid red;
+    border-radius: 4px;
+  }
+  input[type=text]:focus {
+    border: 3px solid #555;
+  }
+  #search{
+   width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+   background-image: url("/img/690150.jpg"); 
+   background-size: 20px;
+  /* background-image: url('http://www.paulund.co.uk/playground/demo/pretty_search_forms/images/search.png'); */
+  /* background-position: 365px 5px; */
+   background-position: 0%;  
+   /* background-position: 0px 0px;  */
+  background-repeat: no-repeat;
+  padding: 12px 0px 12px 30px;
+  transition: width 0.4s ease-in-out;
+  color:green;
+  }
+  #search:focus {
+    width: 40%;
+  }
+  textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize:none;
+  }
+  select {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+  }
+  input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 20px 30px 40px 20px;
+    cursor: pointer;
+  }  
+
